@@ -1,0 +1,93 @@
+*{
+	border:solid 0px black;
+	font-family: "Verdana";
+}
+
+body{
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container{
+	width: 768px;
+}
+
+#banner{
+	height: 75px;
+	background-color: black;
+	color: orange;
+	text-align: center;
+	padding-top: 10%;
+}
+#banner p{
+	text-align: center;
+	float: none;
+	font-size: 33px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+.logo{
+    padding: 5%;
+    width: 100px;
+    float: left;
+
+}
+
+nav{}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+nav ul li{
+	background-color: orange;
+	height: 50px;
+	text-align: center;
+	padding-top: 5%;
+	font-size: 20px;
+	border:solid 3px grey;
+}
+
+nav ul li:hover{
+	background:white;
+	font-size: 150%;
+	color:blue;
+}
+
+
+#mainContent{
+}
+
+#sidebar{
+	display: none;
+}
+
+#mainArea{
+
+}
+#mainArea p{
+	padding: 20px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	line-height: 20px;
+}
+
+#footer{
+	height: 30px;
+	background-color: orange;
+	font-size: 10px;
+	color:white;
+	text-align: center;
+	padding: 5%;
+	width: 100%;
+}
+
+
+
+
+
